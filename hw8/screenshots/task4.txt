@@ -1,0 +1,9 @@
+samvelg@ubuntu-aua-2026:~/hw8-run$ gcc -Wall -Wextra -o task4 task4_append.c && rm -f log.txt && echo "first append line" | ./task4 && echo "second append line" | ./task4 && echo && echo "# log.txt:" && cat log.txt
+Enter a line to append: File offset after write (SEEK_CUR): 31
+Enter a line to append: File offset after write (SEEK_CUR): 63
+
+# log.txt:
+PID=2241941: first append line
+PID=2241943: second append line
+
+[exit 0]

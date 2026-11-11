@@ -1,0 +1,9 @@
+samvelg@ubuntu-aua-2026:~/hw8-run$ gcc -Wall -Wextra -o task1 task1_copy.c && printf "%s\n" /home/samvelg/hw8-run/source.txt /home/samvelg/hw8-run/dest.txt | ./task1 && echo && echo "# dest.txt:" && cat dest.txt
+Enter source file path: Enter destination file path: Copied 29 bytes
+
+# dest.txt:
+line one
+line two
+line three
+
+[exit 0]

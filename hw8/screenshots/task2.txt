@@ -1,0 +1,6 @@
+samvelg@ubuntu-aua-2026:~/hw8-run$ gcc -Wall -Wextra -o task2 task2_truncate.c && ./task2
+Current size: 26 bytes
+New size: 10 bytes
+Remaining content: ABCDEFGHIJ
+
+[exit 0]

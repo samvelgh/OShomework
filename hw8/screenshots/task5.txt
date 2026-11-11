@@ -1,0 +1,9 @@
+samvelg@ubuntu-aua-2026:~/hw8-run$ gcc -Wall -Wextra -o task5 task5_sparse.c && ./task5 && echo && echo "# ls -l:" && ls -l sparse.bin && echo "# du (disk):" && du -h sparse.bin
+Apparent file size: 1048584 bytes
+
+# ls -l:
+-rw-r--r-- 1 samvelg samvelg 1048584 Nov 11 18:25 sparse.bin
+# du (disk):
+8.0K	sparse.bin
+
+[exit 0]

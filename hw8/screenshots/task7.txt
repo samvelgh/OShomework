@@ -1,0 +1,11 @@
+samvelg@ubuntu-aua-2026:~/hw8-run$ gcc -Wall -Wextra -o task7 task7_compare.c && echo "# case A differ:" && printf "%s\n" /home/samvelg/hw8-run/f1.txt /home/samvelg/hw8-run/f2.txt | ./task7; echo "[exit $?]"; echo "# case B identical:" && printf "%s\n" /home/samvelg/hw8-run/f3.txt /home/samvelg/hw8-run/f4.txt | ./task7; echo "[exit $?]"; echo "# case C shorter prefix:" && printf "%s\n" /home/samvelg/hw8-run/f5.txt /home/samvelg/hw8-run/f6.txt | ./task7
+# case A differ:
+Enter first file path: Enter second file path: Files differ at byte 2
+[exit 1]
+# case B identical:
+Enter first file path: Enter second file path: Files are identical
+[exit 0]
+# case C shorter prefix:
+Enter first file path: Enter second file path: Files differ at byte 4
+
+[exit 0]
